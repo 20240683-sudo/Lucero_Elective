@@ -1,33 +1,80 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    text-align: center;
-    padding: 50px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-    color: #2c3e50;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #74b9ff;
+  flex-direction: column;
 }
 
-h2 {
-    color: #16a085;
+/* Landing page */
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  color: rgb(60, 118, 224);
+  flex-direction: column;
+  text-align: center;
 }
 
-p {
-    font-size: 18px;
-    color: #555;
+.landing h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
 }
 
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.landing button {
+  padding: 12px 25px;
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
 }
 
-button:hover {
-    background-color: #2980b9;
+.landing button:hover {
+  background-color: #74b9ff;
+}
+
+/* Home page */
+.home {
+  text-align: center;
+  padding: 60px;
+  background-color: #f4f5f9;
+}
+
+.home h1 {
+  color: #2c3e50;
+}
+
+.home h2 {
+  color: #16a085;
+}
+
+.home p {
+  font-size: 18px;
+  color: #555;
+}
+
+button#colorButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#colorButton:hover {
+  background-color: #2980b9;
 }
